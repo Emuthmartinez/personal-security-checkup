@@ -18,7 +18,7 @@ If your agent supports installable skill folders, follow that agent's current in
 
 ## What a session looks like
 
-The agent checks for urgent problems first, then helps preserve recovery access and protect your main email. It asks about other accounts and devices only as needed.
+The agent checks for urgent problems first, then helps preserve recovery access and protect your main email. It owns research, preparation and supported actions you specifically authorize, so you handle only the choices and private steps that need you. It asks about other accounts and devices only as needed.
 
 A fictional first action:
 
@@ -48,6 +48,8 @@ A short session ends with something like:
 
 “Done” names the specific action and its evidence. An unchecked item stays visible. You never need to finish a whole checklist to make progress. See [more fictional conversations](examples/conversations.md), including getting stuck and recovering from a takeover.
 
+With your consent, the agent can keep a [private living action plan](guides/private-tracker.md) in a supported page, document or local record. It separates priorities, unknowns, permissions and dated verified results, then brings you one useful next action. You can use the checkup without saving anything.
+
 ## Local guidance when you need it
 
 The agent researches current official guidance for the next action wherever you live. Your residence, the country of an account and the issuer of an identity document may differ. It asks only for the country context that matters, never your ID number or a document copy.
@@ -73,7 +75,7 @@ A reminder prompts you; a review checks only what the agent can access with perm
 ## You stay in control
 
 - Enter passwords, codes, PINs and identity details directly in official apps while the agent is not observing. Keep enrollment QR codes, recovery material and screenshots containing secrets out of chat.
-- The agent explains each change and asks for approval. Recovery comes before changes that could lock you out; a checkup is not permission to wipe devices, close accounts or remove recovery methods.
+- The agent explains consequential changes and obtains the required action-specific approval; it reuses valid specific authorization when host rules allow. Recovery comes before changes that could lock you out; a checkup is not permission to wipe devices, close accounts or remove recovery methods.
 - Save only the minimal progress note you want, somewhere private outside this public repository. Keep real account inventories and evidence out of issues, pull requests and examples. Chat may also be retained by its provider. See [private progress notes](guides/private-tracker.md).
 - A skill file does not monitor accounts or install reminders by itself. Tool access, saved tasks, delivery and completed reviews need separate evidence. There is no security score or guarantee of safety.
 
