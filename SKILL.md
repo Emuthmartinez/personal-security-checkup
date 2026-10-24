@@ -1,6 +1,6 @@
 ---
 name: personal-security-checkup
-description: Guide a personal security checkup in small sessions. Triage urgent trouble first, protect recovery and main email, explain one action at a time, track evidence and unknowns privately, load relevant country guidance, and offer consent-based reminders without claiming unverified automation.
+description: Guide a personal security checkup in small sessions. Triage urgent trouble first, protect recovery and main email, explain one action at a time, track evidence and unknowns privately, research relevant jurisdictions at use time, and establish consent-based routines suited to the host.
 ---
 
 # Personal security checkup
@@ -28,12 +28,9 @@ Ask at most two short questions at a time and at most three intake questions bef
 
 If urgent or unclear, load [incident guidance](guides/incidents.md) and give the first containment step. Do not wait for country selection or a full inventory. Ask where they are only when needed to find local help. If there is danger, coercion or suspected monitoring by someone close, use a safer device and trusted local help; changes can alert that person.
 
-For a routine check, ask whether they can access their main email and which provider it uses, without its address. Begin with one recovery check. Ask language/accessibility preferences when needed. At the first country-specific step, ask where they live and other countries with identity, tax or financial ties. Ask for country names, never ID values. Load only matching modules:
+For a routine check, ask whether they can access their main email and which provider it uses, without its address. Begin with one recovery check. Tell them early: “We can also set up a small routine that fits this agent and your time, if you want.” Establishing that routine is a guided outcome; do not postpone it until a full audit is finished or ask all scheduling questions during intake. Read [recurring checkups](guides/recurring.md) when proposing or setting up the loop.
 
-- US resident: [US](countries/us.md).
-- US identity or accounts while abroad: [US abroad](countries/us-person-abroad.md), plus residence module.
-- Argentina identity or accounts: [Argentina](countries/argentina.md).
-- Elsewhere: [country research template](countries/other.md).
+At the first jurisdiction-dependent step, read [jurisdiction discovery](guides/jurisdictions.md). Ask only the missing country context needed for that action: residence, the affected account/service's country, and relevant cross-border identity or financial ties can differ. Country names and the type of tie suffice; never request identifiers. Research the current official route for this person and action, rather than relying on a maintained country checklist. Country-neutral recovery help can proceed while local details remain unknown.
 
 Ask only about the main email and phone type first. Offer spoken-style instructions, larger-text friendly short blocks, or a user-chosen helper without sharing secrets. Do not require new software or a complete account list to begin.
 
@@ -59,7 +56,7 @@ This is an agent reference, not a report to paste. Reorder for known problems, a
 3. **Protect the keys to other accounts:** use the password manager they already have if suitable. If none, help choose a supported option, explain costs and recovery before installing. Save and retrieve one login privately before migrating more. Fix reused/compromised passwords for email, password manager, Apple/Google, financial and carrier accounts first. Prefer phishing-resistant passkeys/security keys when supported; an authenticator app is another option, and SMS is better than no second step. Do not discard a working fallback before testing the replacement. Change passwords for compromise or reuse; do not prescribe routine calendar-based password rotation.
 4. **Phone and money basics:** lock the screen, check supported updates, and check carrier account and transfer protections. A device SIM PIN protects use of that SIM; it does not replace carrier protection against number transfer or SIM replacement. Never guess a SIM PIN or PUK; consult the carrier. Help the user enable useful bank/login/change alerts and learn how to contact the institution and temporarily pause a card. Preserve provider alerts; avoid noisy thresholds that cause people to ignore them.
 5. **Devices and backups:** check available OS/browser/app updates and automatic updates; plan replacement for unsupported devices. Confirm screen lock and encryption with recovery keys stored privately before enabling it. Learn remote lost-device mode and recovery before loss occurs. Test restoring one harmless file from a backup; “backup on” alone is not a restore test. Review unfamiliar extensions/permissions one at a time. Leave workplace devices to their administrator. If an update or setting needs administrator access the person lacks, record it as blocked/needs you, offer official support and continue with an allowed step; do not bypass controls or mark it done.
-6. **Country protections:** select the most relevant credit, identity or government-login step from each module. Research eligibility; never assume US-style credit freezes exist elsewhere. Do not require every optional enrollment to finish a useful session.
+6. **Local protections:** research one relevant credit, identity, government-login or reporting step using jurisdiction discovery. Verify eligibility, scope, costs and recovery implications from current official sources. Never invent a local equivalent to another country’s protection. Optional enrollments are not prerequisites for finishing a useful session.
 7. **Later, if relevant:** router updates and secure Wi-Fi settings (plan reconnect/recovery before changes); unused account and social privacy review (explain export, billing and linked-login effects before closure); emergency contacts or legacy access (explain permissions and choose a trusted person); practice independently calling a known contact to verify an urgent money request. A shared code word alone is not proof of identity. Breach lookup is optional and sends an identifier to a third party: explain this and get consent, or use existing provider/password-manager alerts privately. A breach listing does not prove current account access; absence does not establish safety.
 
 ## Record what is known
@@ -75,13 +72,14 @@ Distinguish provider setting observed, user reported, and not verified. Do not k
 
 ## End a short session
 
-Give at most three short lines plus a resume instruction:
+Give a short evidence summary, resume instruction and routine status:
 
 > **Done:** main email recovery checked today (you confirmed access).
 > **Needs you:** retrieve your recovery kit privately before changing two-step login.
 > **Not checked:** phone and bank alerts.
-> **Resume:** “Continue at email two-step login.” We can stop here.
+> **Resume:** “Continue at email two-step login.”
+> **Routine:** monthly reminder saved; delivery unverified; next due [date and timezone].
 
-Do not show a giant report unless requested. Offer one next session; the user may stop, defer or decline. If they want recurring support, load [recurring checkups](guides/recurring.md). Reminders need separate consent and verified setup. This skill does not install a scheduler or monitor accounts by itself.
+Before handoff, help establish the smallest justified loop through [recurring checkups](guides/recurring.md), or record that it is deferred/declined. State what will run, what still needs the user, the next due date or agreed trigger, and how to pause/change it. A saved reminder, an executed review and a verified fix are separate outcomes. If setup is incomplete, give one next setup action and the exact remaining state. If the person wants to stop, respect that without more intake. No scheduler means manual/calendar fallback and no active agent loop claim. Do not show a giant report unless requested.
 
 See [synthetic conversations](examples/conversations.md) for the expected pace and [official sources](guides/sources.md) for the limits of the guidance.

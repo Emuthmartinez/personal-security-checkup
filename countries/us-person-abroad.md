@@ -1,13 +1,5 @@
-# US identity or accounts while living abroad
+# Cross-border identity or accounts: research at use time
 
-Load with the residence-country module. Apply [US credit/tax protections](us.md) only where relevant; do not repeat the same steps twice. US accounts alone do not imply an SSN, ITIN, credit file or US tax-filing duty. Ask what kind of tie applies without collecting identifiers. See [sources](../guides/sources.md).
+This path remains for older links. The maintained country playbook has been retired. Use [jurisdiction discovery](../guides/jurisdictions.md) for the next action, distinguishing residence, affected service country and relevant cross-border ties without collecting identifiers. Verify current official authority, eligibility and superseding rules before recommending a route.
 
-## Choose one dependency first
-
-- **Credit freeze:** use the three official bureau routes in the US module. If online identity verification fails, use each bureau's current official mail/phone process. [TransUnion's mail/phone guide](https://www.transunion.com/credit-freeze/mail-or-phone) is a starting point; confirm current foreign-address/document requirements directly before sending anything. Do not invent a US address or have the agent handle identity documents. Mailing identity copies has privacy and delivery risks; check secure alternatives with the bureau first.
-- **IRS IP PIN:** use the current IRS process in the US module. Online verification, alternative eligibility and mail delivery can be harder abroad. Check the actual requirements and enrollment option; do not promise remote completion. A failed identity check is “needs you,” not done.
-- **Recovery phone:** a US carrier, local carrier or internet-based number can have different support for sign-in codes. Confirm what each critical institution accepts. Where supported, add a passkey/authenticator and test it before changing the old number. Passkeys do not remove recovery-number dependencies. Do not cancel an old line while important accounts depend on it; confirm carrier protections and continuity first.
-- **Financial support:** save the institution's official international contact route privately; a US toll-free number may not be reachable from abroad. Review useful alerts without exposing account details. For beneficiaries, trusted contacts or tax-preparer access, explain permissions and ask for specific consent before changes.
-- **Mail and government access:** ask the relevant institution how to update a real foreign address securely. Do not recommend a false address to pass verification. For SSA, consult [official international services](https://www.ssa.gov/foreign/) for current access/recovery options. Do not promise a specific identity provider or foreign phone support without checking.
-
-For suspected money fraud, contact the financial institution immediately. Use the US reporting routes when applicable and the local module for local theft, ID or police help. Do not provide tax advice or require unrelated tax filings as a security step. Routine reviews should revisit affected recovery methods after a move or number change.
+Continue country-neutral recovery through the [core skill](../SKILL.md); urgent containment should not wait for country research. Establish follow-up through [recurring checkups](../guides/recurring.md).
