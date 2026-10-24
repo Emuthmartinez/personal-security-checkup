@@ -8,15 +8,15 @@ If money is moving without your permission, you lost account access, or your pho
 
 Give your agent this prompt after loading the skill:
 
-> Help me with a personal security checkup, one small step at a time. First check whether anything urgent is happening and how much time I have. Explain why each step matters, what you can do, what needs me, and how we will know it worked. Keep secrets and account identifiers out of chat. Let me stop and resume. Ask before saving private notes or setting reminders.
+> Help me with a personal security checkup, one small step at a time. First check whether anything urgent is happening and how much time I have. Explain why each step matters, what you can do, what needs me, and how we will know it worked. Keep secrets and account identifiers out of chat. Let me stop and resume. Help me establish a small ongoing routine suited to this agent, my risks and my time. Ask before saving private notes, enabling tasks or granting access.
 
-The agent starts with urgent triage, recovery and main email. It asks about countries and devices as needed, then helps with phone, money, devices and country protections. Each short session ends with **done / needs you / not checked**, with the evidence behind “done.” There is no security score or promise that accounts are safe.
+The agent starts with urgent triage, recovery and main email. It asks about devices and relevant jurisdictions as needed, then researches current official local protections for the next action. Residence and the country of an affected account may differ. Each short session ends with **done / needs you / not checked**, with the evidence behind “done.” There is no security score or promise that accounts are safe.
 
 ## Load the skill
 
 For an agent that supports skill folders, copy this folder into that agent's documented skills directory. Keep `SKILL.md`, `countries/`, `guides/` and `examples/` together. Skill installation differs by agent; check its current instructions. Loading the skill grants no account access or recurring monitoring.
 
-For an ordinary chat assistant, paste [SKILL.md](SKILL.md) first. When it requests a linked guide or country module, paste that file too. If it cannot load the needed guidance or verify an official source, it should explain the gap and pause that step.
+For an ordinary chat assistant, paste [SKILL.md](SKILL.md) first. When it requests a linked guide, paste that file too. If it cannot load the needed guidance or verify an official source, it should explain the gap and pause that step.
 
 ## What you control
 
@@ -30,12 +30,12 @@ Keep real trackers, inventories and evidence outside this public repository, iss
 | --- | --- |
 | [Core skill](SKILL.md) | The agent's order, boundaries and one-action response format |
 | [Urgent help](guides/incidents.md) | Account takeover, lost phone, money fraud, identity misuse |
-| [Recurring checkups](guides/recurring.md) | Optional reminders, realistic cadence, setup/readback tests and manual fallback |
+| [Recurring checkups](guides/recurring.md) | Establish a consent-based loop, choose useful cadences, verify setup and use manual fallback |
 | [Synthetic conversations](examples/conversations.md) | First use, getting stuck, takeover and a routine review |
-| [US](countries/us.md), [US abroad](countries/us-person-abroad.md), [Argentina](countries/argentina.md), [other countries](countries/other.md) | Local protections and official support routes |
+| [Jurisdiction discovery](guides/jurisdictions.md) | Research current local protections, eligibility and cross-border dependencies at use time |
 | [Sources](guides/sources.md) | Verified claims and things to recheck |
 
-The skill does not install reminders or continuously watch accounts. Recurring setup must be consented to, read back from the scheduler and tested. Manual calendar reminders work when agent scheduling is unavailable.
+Establishing an ongoing loop is part of the guided checkup. The agent considers daily, weekly, monthly, yearly and event-driven options, then proposes only those justified by your needs and its actual tools. Daily work is usually passive and exception-only; it never means daily resets or full audits. You can decline or defer. Setup requires bounded consent and provider readback, with delivery verified where possible. Without a scheduler, the agent helps you use a calendar or manual habit and says that no agent loop is active.
 
 ## Contribute and check
 
