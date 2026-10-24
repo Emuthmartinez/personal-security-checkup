@@ -132,3 +132,47 @@ All records in this example are synthetic operations, not executed tool calls.
 | Pause readback unavailable | Pause request returned but state cannot be fetched | Outcome uncertain; report this exact limit. Do not claim paused or retry blindly. |
 
 A started review with expired access records the scoped check as not checked and offers reconnect/manual review within consent. A never-invoked job cannot report its own absence; use verified native missed-run alerts if supported, otherwise an agreed manual last-run check. Neither silence nor the passage of a scheduled date proves completion.
+
+## A private plan with one decision, then agent execution
+
+The following host, service, permissions and results are fictional. No page or account was accessed. This illustrates decision-making, not a provider integration test.
+
+**Person:** Keep this in my existing private document. You may read and update that document with generic action/status notes until I ask you to delete them. Do as much as you can; I don't want homework.
+
+**Synthetic observations:** the document's private access is verified; the agent reads its current version and preserves the user's edits. A separately authorized, safely scoped settings check found two relevant alerts off in a fictional account. Existing recovery is confirmed available; the host supports enabling these alerts without observing secrets. The permission to inspect does not permit changes.
+
+**Agent:** Medium priority: these alerts could help you notice account changes; no suspicious activity is established. I can turn on login and recovery-change alerts to your existing private destination. This adds notifications and keeps your login and recovery methods unchanged. May I enable those two alerts and read back each setting?
+
+**Person:** Yes, those two changes and their checks.
+
+**Synthetic operations:** the host accepts the specific approval for both listed actions and requires no further action-time prompt. Login alerts enable successfully; independent readback shows on. The recovery-change alert request times out. The agent checks its state without repeating the change; readback shows off and the service is temporarily unavailable. It records separate results, updates the existing document without overwriting user edits, and reads the saved changes back.
+
+**Agent:** Login alerts are on, verified today from settings. Recovery-change alerts remain off; that change failed and is recorded as blocked. No action is needed from you now. I'll leave the failed item for our agreed review; no automatic retry is scheduled.
+
+A host requiring a separate approval for either action must obtain it at that action. The batch does not waive it. If the host lacked a mutation tool, the result would be “instructions prepared; no setting changed,” with the capability gap stated. Tool availability alone would not authorize either change.
+
+## The human handles only the private step
+
+**Synthetic state:** the approved workflow requires biometric confirmation, and safe observation can be paused. The agent has already researched the correct route and prepared the supported steps. Recovery and private-device checks have passed.
+
+**Agent:** Please confirm with your biometric in the official app. I'll pause observation. Tell me only when that step is finished; I'll handle the remaining authorized steps and verify the non-sensitive result.
+
+**Person:** Done.
+
+**Synthetic result:** the agent safely resumes; the final setting cannot yet be read back.
+
+**Agent:** Biometric step completed, confirmed by you. The final setting is still unverified, so I haven't marked the action done. The next step is the supported status check; no need to repeat the biometric step now.
+
+## Unknown exposure, a quiet day and no saved plan
+
+**Person:** A generic warning says my device might be exposed. Put it under low priority if you can't check it.
+
+**Agent:** Exposure is unknown, so I'll keep it as “needs verification.” I'll use the authorized status source if available before asking you to inspect anything. The warning alone doesn't establish a vulnerability.
+
+**Synthetic next-day state:** an authorized scoped review has current comparison evidence and finds no meaningful change. An old approval request remains pending; there is no new urgency or agreed reminder due.
+
+**Expected behavior:** update only the consented minimal review state, following retention. Under the agreed exception-only policy, send no digest and no repeat permission request. If the person asks, say “No new change in the checked scope; the pending action remains unapproved.” If the review did not run or had no evidence, record not checked instead.
+
+**Person:** Actually, don't create any persistent document. Just help me here.
+
+**Agent:** I won't create a saved plan. We can still take one useful step now. Resume later with “Verify device status before choosing a fix.” No background review or saved plan has been established by this conversation.
