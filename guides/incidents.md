@@ -1,0 +1,19 @@
+# If something is happening now
+
+Pause the routine check. Give one immediate action, wait for the result, then the next. Ask only enough to choose a route: lost access, unauthorized money, missing phone, unexpected loss of mobile service, or identity misuse. Multiple routes may apply; money at risk and access to recovery need prompt attention.
+
+The agent can find official recovery guidance and explain it. The user signs in, makes calls, enters codes and submits reports. Do not contact people, send reports or change settings without specific authorization. Preserve useful messages and transaction records privately for the provider or authorities; do not paste them here. A suspicious alert is a reason to check the official app, not proof of a breach.
+
+| Situation | First action | Then, one step at a time |
+| --- | --- | --- |
+| Money moved or a payment was sent to a scammer | Contact the bank/payment provider immediately through its app or a known official number. Ask about fraud containment and whether the payment can be stopped or reversed. | Follow its instructions, record the claim privately, review access from a trusted device and use the country reporting route. Recovery is not guaranteed. Do not pay a “recovery” service. |
+| Account taken over or locked out | Open that provider's official recovery flow from a trusted device. For email, use the provider's hacked-account guidance. | If still signed in, preserve a working session. Follow provider containment guidance for passwords, recovery details, sessions and forwarding. Changes need a usable recovery route. Check important accounts dependent on that email after access is secured. |
+| Phone missing or stolen | Use the manufacturer's official lost-device service from another trusted device to mark/lock it as lost, if available. Do not confront a thief. | Contact the carrier about suspending the line and protecting the number; contact financial providers if access may be exposed. Consider account recovery dependencies before remote erase. For a stolen Apple device, keep it in Find My even after erasing: removing it disables Activation Lock. Do not follow messages asking you to remove it. |
+| Unexpected service loss or unrequested SIM/transfer notice | Contact the carrier independently from another connection. Ask whether the SIM or number was changed and how to recover it. | Protect email and financial recovery routes from a trusted device. A device SIM PIN does not prevent a carrier-side transfer. An outage alone is not proof of theft. |
+| Unfamiliar debt, identity misuse or lost ID | Contact the institution showing the issue and use the relevant country's official reporting/replacement guidance. | Check available records and dispute errors; a mistaken entry may be an error or fraud. Do not send ID documents to an agent or unverified helper. |
+
+For Google accounts, use [Google's compromised-account guide](https://support.google.com/accounts/answer/6294825). For an iPhone, use [Apple's lost-device guide](https://support.apple.com/en-us/101593). For Android, start at [Google's lost-device guidance](https://support.google.com/accounts/answer/6160491). Verify current requirements before a consequential action. Remote locking/erasing depends on prior setup, connectivity and device support.
+
+For threats to physical safety or suspected abuse, use a safer device and trusted local support; account changes may be visible to someone monitoring the device. Do not run tests that provoke an attacker or erase evidence. Employer accounts and devices need employer incident support.
+
+After each action, state what happened and what remains unknown. End with the next official recovery step or support contact and a stopping point. Filing a report does not prove the account has been recovered. Resume routine prevention only when the immediate issue has a clear recovery owner.

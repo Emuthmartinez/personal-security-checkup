@@ -1,36 +1,23 @@
-# United States module
+# United States
 
-Load this if the user lives in the US. If they have a US SSN but live abroad, load `us-person-abroad.md` instead (it covers the same agencies with the abroad-specific catches).
+Load for US residents. Use [US abroad](us-person-abroad.md) instead when living abroad. Choose one relevant step; do not present every enrollment at once. User enters all identity information directly with the institution. Use the core skill's consent, recovery and evidence rules. See [sources and review dates](../guides/sources.md).
 
-The user types every SSN, PIN, and password directly into the official site. Never in chat.
+## Credit and tax identity
 
-## Phone number protection (main step 4)
-- Set the carrier account PIN and turn on the carrier's port-out / number-lock / SIM-change protection. Current names: Verizon "Number Lock", AT&T "Wireless Account Lock", T-Mobile "SIM Protection" and "Port Out Protection". Check the carrier's site or app; names change.
+Offer a **free credit freeze**, one bureau at a time, at [Equifax](https://www.equifax.com/personal/credit-report-services/credit-freeze/), [Experian](https://www.experian.com/freeze/center.html) and [TransUnion](https://www.transunion.com/credit-freeze). A freeze restricts access to a credit report and helps prevent new credit fraud; it does not protect existing bank/card accounts or prevent every kind of identity misuse. It is free to place/lift and does not affect a credit score. Paid “locks” and monitoring are different products. Explain how to lift the freeze before a planned credit application. Each bureau needs its own confirmation; one successful freeze is not all three. Store access/recovery details privately. [FTC guidance](https://consumer.ftc.gov/articles/credit-freezes-and-fraud-alerts).
 
-## Stolen phone (main step 5)
-- Lock or wipe it remotely, call the carrier to suspend the line, and change the email and bank passwords from a trusted device.
+Use [AnnualCreditReport.com](https://www.annualcreditreport.com) for the federally authorized free reports. If a record is unfamiliar, investigate with the reporting institution and bureau; do not label it identity theft without checking. Child/dependent protections require the appropriate guardian process and consent; do not collect documents here.
 
-## Identity, tax, and credit (main step 8)
-- Freeze credit at all three bureaus. Free by law, and it doesn't hurt the credit score. Lift it temporarily when applying for credit.
-  - Equifax: https://www.equifax.com/personal/credit-report-services/credit-freeze/
-  - Experian: https://www.experian.com/freeze/center.html
-  - TransUnion: https://www.transunion.com/credit-freeze
-  - Save each bureau login in the password manager.
-- Free credit reports: https://www.annualcreditreport.com (the only official site).
-- IRS Identity Protection PIN (stops someone filing a tax return in their name): https://www.irs.gov/ippin. Renews each calendar year; get it from the IRS online account.
-- Social Security: create a my Social Security account at https://www.ssa.gov/myaccount so nobody else creates one in their name. Or, if they will never use it, ask SSA for an Electronic Access Block (call 1-800-772-1213). The block stops everyone, including them, until they call to remove it.
-- Optional: freeze ChexSystems (bank accounts) and NCTUE (utility and phone accounts); opt out of prescreened credit offers at https://www.optoutprescreen.com.
-- Kids can have their credit frozen too (a "protected consumer" freeze, usually by mail).
-- USPS Informed Delivery (https://informeddelivery.usps.com) shows the mail coming to their address and alerts them to a change of address filed in their name. Sign up so a criminal can't.
+An [IRS Identity Protection PIN](https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin) helps prevent tax returns filed with a stolen SSN/ITIN. Eligibility requires identity verification. It is valid for one calendar year. Review enrollment choices: the IRS now describes a one-time calendar-year option as well as continuing enrollment. Record the selected option privately, and confirm next-year needs rather than assuming every person stays enrolled. If online verification fails, use the current IRS alternative process and eligibility rules. Never ask the user to share the PIN; explain that it is needed for filing. Tax-filing obligations are outside this checkup.
 
-## Do-not-call
-- https://www.donotcall.gov. It stops legitimate telemarketers, not scammers.
+## Phone, money and optional government accounts
 
-## Report fraud
-- Identity theft recovery plan: https://www.identitytheft.gov
-- Scams and fraud: https://reportfraud.ftc.gov
-- Online crime: https://www.ic3.gov
-- Bank or card fraud: call the number on the back of the card first.
+Ask the carrier which account PIN, SIM-change and number-transfer protections it currently supports. Verify its official instructions before enabling one; do not infer protection from the device SIM PIN. Review one important financial account's available login/change/transaction alerts, and learn the official fraud contact. Do not close accounts or cards automatically.
 
-## Monthly
-- Glance at bank and card alerts; check that the credit freezes are still in place once a year; pull a free credit report every few months.
+For a Social Security account or electronic-access restriction, consult [SSA](https://www.ssa.gov/myaccount/) only if relevant. Verify current enrollment/recovery and the effects of restrictions before proceeding. Do not claim that creating an account prevents all impersonation. Additional specialty freezes, mail services and do-not-call enrollment are optional later research, not prerequisites for a successful first session.
+
+## Urgent reporting
+
+Contact the bank/payment provider first for money at risk. [IdentityTheft.gov](https://www.identitytheft.gov) offers a recovery plan for identity theft; [ReportFraud.ftc.gov](https://reportfraud.ftc.gov) accepts scam reports. The user submits details privately; the agent can explain the process. A report is not containment or a refund guarantee.
+
+For later reviews, rotate record checks and confirm freeze status when relevant, especially after temporarily lifting one. Use the agreed cadence in [recurring checkups](../guides/recurring.md), not mandatory monthly reenrollment.

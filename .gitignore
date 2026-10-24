@@ -1,0 +1,10 @@
+# Personal records must live outside this repository. These are extra guardrails.
+/private/
+/evidence/
+/inventory/
+/tracker.local.*
+.env
+.env.*
+__pycache__/
+*.pyc
+.DS_Store

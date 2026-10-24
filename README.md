@@ -1,42 +1,46 @@
 # Personal security checkup
 
-An agent skill that walks one person, step by step, through securing their digital life: password manager, email, two-step login, phone number, phones, computers, home Wi-Fi, money alerts, breaches, family emergency access, scam habits, and a short monthly check.
+A calm guide for ordinary people and their agents. Start with what is happening today, take one useful step, and stop with a clear place to resume. You do not need to understand security jargon or finish a long checklist.
 
-The core is country-neutral. Country-specific steps (credit bureaus, tax agency, national ID, carrier rules, fraud reporting) live in modules the agent loads based on where you live and which countries you have ties to.
+If money is moving without your permission, you lost account access, or your phone was stolen, start with [urgent help](guides/incidents.md). Use the bank's official app or a known number to contact it now.
 
-| File | What it covers |
+## Start
+
+Give your agent this prompt after loading the skill:
+
+> Help me with a personal security checkup, one small step at a time. First check whether anything urgent is happening and how much time I have. Explain why each step matters, what you can do, what needs me, and how we will know it worked. Keep secrets and account identifiers out of chat. Let me stop and resume. Ask before saving private notes or setting reminders.
+
+The agent starts with urgent triage, recovery and main email. It asks about countries and devices as needed, then helps with phone, money, devices and country protections. Each short session ends with **done / needs you / not checked**, with the evidence behind “done.” There is no security score or promise that accounts are safe.
+
+## Load the skill
+
+For an agent that supports skill folders, copy this folder into that agent's documented skills directory. Keep `SKILL.md`, `countries/`, `guides/` and `examples/` together. Skill installation differs by agent; check its current instructions. Loading the skill grants no account access or recurring monitoring.
+
+For an ordinary chat assistant, paste [SKILL.md](SKILL.md) first. When it requests a linked guide or country module, paste that file too. If it cannot load the needed guidance or verify an official source, it should explain the gap and pause that step.
+
+## What you control
+
+You sign in and enter passwords, codes, PINs and identity details directly in official apps, out of the agent's view. The agent researches, explains and keeps only the minimal private progress notes you approve. It asks before any change. Recovery comes before changes that could lock you out.
+
+Keep real trackers, inventories and evidence outside this public repository, issues and pull requests. Use generic labels in chat. Even private chat may be retained by its provider. The examples here are fictional. [Privacy and evidence rules](guides/private-tracker.md) explain what a useful record can contain.
+
+## Guides
+
+| Guide | Use it for |
 | --- | --- |
-| `SKILL.md` | The core checkup flow and ground rules |
-| `countries/us.md` | Living in the US: credit freezes, IRS IP PIN, SSA, carrier locks, FTC reporting |
-| `countries/us-person-abroad.md` | US SSN holders living outside the US |
-| `countries/argentina.md` | Argentina: BCRA Central de Deudores, Veraz, ARCA Clave Fiscal and Token, Mi Argentina, carriers and \*910, WhatsApp takeover, banks and wallets, No Llame, fraud reporting |
-| `countries/other.md` | Template for any other country: what to look up and where |
+| [Core skill](SKILL.md) | The agent's order, boundaries and one-action response format |
+| [Urgent help](guides/incidents.md) | Account takeover, lost phone, money fraud, identity misuse |
+| [Recurring checkups](guides/recurring.md) | Optional reminders, realistic cadence, setup/readback tests and manual fallback |
+| [Synthetic conversations](examples/conversations.md) | First use, getting stuck, takeover and a routine review |
+| [US](countries/us.md), [US abroad](countries/us-person-abroad.md), [Argentina](countries/argentina.md), [other countries](countries/other.md) | Local protections and official support routes |
+| [Sources](guides/sources.md) | Verified claims and things to recheck |
 
-## Ground rules the agent follows
-- Never asks you to type a password, code, PIN, ID number, or card number into the chat. You type those directly into the official site or app.
-- Only sends you to official sites and apps.
-- Checks and reports before changing anything, and only changes things after you say yes.
+The skill does not install reminders or continuously watch accounts. Recurring setup must be consented to, read back from the scheduler and tested. Manual calendar reminders work when agent scheduling is unavailable.
 
-## Install
+## Contribute and check
 
-**Agents that support skills** (Claude Code, Cursor, and others that read `SKILL.md` folders): copy the whole folder, including `countries/`, into the agent's skills directory, for example:
+Read [AGENTS.md](AGENTS.md). Use synthetic data only. Prefer fewer useful actions over a longer checklist. Link current official sources, state limitations, and preserve recovery paths. Guidance is not legal, tax or financial advice.
 
-```bash
-git clone https://github.com/Emuthmartinez/personal-security-checkup.git
-cp -r personal-security-checkup ~/.claude/skills/        # Claude Code
-# or your agent's own skills folder
-```
+Run the offline checks with `python3 -m unittest discover -s tests -v`. They validate packaged local links and skill metadata. They do not audit accounts, install reminders or prove real-world security.
 
-**Agents without skills support** (any chat assistant): paste the contents of `SKILL.md` into the chat, then paste the country file(s) that apply to you (for example `countries/argentina.md` and `countries/us-person-abroad.md`), then send the kickoff prompt below.
-
-## Kickoff prompt
-
-> Run my personal security checkup. First ask where I live and which other countries I have ID, tax, or bank ties to, and load the matching country modules. Then ask what devices and accounts I have, make me a tracker, and walk me through it one step at a time, most important first. Never ask me to type a password, code, PIN, or ID number into this chat. Check before you change anything, and set up a short monthly check when we're done.
-
-## Notes
-- Country facts were checked on official sources in October 2026. Rules and app menus change; the agent is told to trust the official site when it differs.
-- This is security guidance, not legal, tax, or financial advice.
-- Contributions of new country modules are welcome. Follow `countries/other.md` and link official sources.
-
-## License
-MIT. See `LICENSE`.
+MIT license. See [LICENSE](LICENSE).
