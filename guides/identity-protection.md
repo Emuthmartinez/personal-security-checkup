@@ -1,0 +1,65 @@
+# Reduce exposure and watch for meaningful changes
+
+Load this guide when the person asks for footprint reduction, people-search removal, identity protection, breach alerts or monitoring. These are portable agent workflows, not an installed identity-protection service. [Official source notes](sources.md) support the distinctions below; verify the current route at use time. Begin with one useful target after urgent triage; do not demand a full identity inventory or make email recovery a prerequisite for researching a public removal route. Active fraud, threats or doxxing go to [incident help](incidents.md) first. Someone facing stalking or coercion may need a safer device and specialist support before visible changes.
+
+## Agree on the smallest useful scope
+
+Ask what matters now: an exposed listing, an account they control, or a specific signal to watch. Explain what the host can actually research, inspect, submit and schedule. General “protect me” permission does not authorize personal searches, identifier uploads, enrollment, removal requests, paid subscriptions or access grants. Apply the [action lanes](private-tracker.md) and current host rules separately to each action.
+
+- **Discovery:** agree on named sites/results or a bounded search, what information may be used, which search provider/sites will receive it and whether results may be opened. A search query or URL can disclose identity details to providers and logs even when the underlying information is public. Do not reuse identifiers from prior chat, contacts or unrelated accounts without specific scope. Prefer a user-side search or known listing with a generic status report when safe tools cannot avoid retaining personal information. Never request ID numbers, documents or secrets; identity verification stays private.
+- **Requests:** prepare the exact target, requested effect, recipient, necessary data categories, any required verification and how success will be checked. Obtain specific submission authorization when not already valid. Read-only discovery permission does not authorize contacting a site. Reuse valid exact consent without asking again; new recipients, data categories, commitments or changed scope need review. Do not collect extra identity data just to increase matching confidence.
+- **Ongoing work:** separate consent to inspect approved signals from permission to store notes, schedule runs, deliver notifications and submit future requests. A recurrence does not broaden search scope or silently renew removal authority. Declined/denied action remains stopped; do not switch tools, agents or routes to evade it. Continue unrelated authorized work.
+
+Use country and service context only when it changes the next route. Follow [jurisdiction discovery](jurisdictions.md) to verify rights, applicability, authorized-agent rules, exceptions, identity-verification requirements, response/appeal periods and current official channels. Never claim a universal right to deletion or infer eligibility from language/citizenship alone. Do not impersonate the person or attest to facts/sign declarations they have not confirmed.
+
+## Choose the right kind of reduction
+
+| Target | Practical workflow and limit |
+| --- | --- |
+| Content in an account the person controls | Review the specific public audience, profile fields, discoverability, location sharing or old content. Explain consequences; change only the approved item and verify its audience/result safely. Preserve needed records and account recovery. See [everyday protections](everyday-security.md). |
+| People-search site or data broker | Verify the site's official opt-out/privacy route and the listing match. Prepare a targeted suppression/opt-out or erasure request under the applicable route. Ask whether that route suppresses public display, stops sale/sharing, deletes data or retains a suppression record: these are different results. Minimum required verification is performed privately; do not upload identity documents for the user. |
+| Website hosting exposed information | Seek removal/redaction at the source through its verified owner/platform route. Identify the specific content without repeating it in chat or a notification. Legitimate records, public-interest exceptions, archives and copies can limit removal; verify the applicable process instead of promising deletion. |
+| Search result | Check that engine's current personal-information, doxxing or outdated-content route. Search deindexing limits discovery through that engine; it does not remove the source page or copies. Source removal and search removal are separate items with separate verification. Do not resubmit to every engine without scope. |
+| Breach or identity alert | Prefer an already enabled provider/password-manager alert. An optional external lookup/enrollment sends data to another service and needs explicit destination/data consent. A match concerns that service's available dataset, not proof of current compromise. Verify through the affected provider, prioritize exposed/reused credentials privately, and route actual misuse to incident recovery. |
+| Credit or official identity record | Research available restrictions, record review/correction and fraud reporting locally. Monitoring can identify some changes; it does not block misuse or replace restrictions where available. A credit restriction does not secure existing accounts or cover every form of identity theft. |
+
+Do not buy leaked data, enter criminal forums, probe stolen credentials or claim access to the “dark web.” A supported reputable provider's alert is evidence only within its stated coverage. Evaluate any proposed service's actual coverage, fees/renewal/cancellation, data retention, identity-document demands, delegated authority and recovery support before enrollment. This skill supplies no insurance, reimbursement, credit monitoring feed or guaranteed restoration; do not imply these exist without verified provider terms and separate user approval.
+
+## Verify the match before acting
+
+A matching name or old address alone may refer to someone else. Classify a candidate as **possible**, **user-confirmed**, **confirmed by authorized evidence**, or **not a match**, with a brief non-sensitive reason and date. Ask for a private comparison or a yes/no confirmation; do not copy identifying fields into the tracker. Conflicting evidence stays possible. A new listing is not automatically a new incident or a new person.
+
+Do not submit a request claiming ownership, contact the listed person, or store their profile while the match is uncertain. Discard unrelated people's information and exclude rejected candidates from repeat alerts using minimal generic state if retention is authorized. Recheck a material change without treating every similar name as the user. The user's confirmation establishes the match, not the truth of every claim on the page.
+
+## Request, read back and revisit
+
+Use the existing private plan with the optional fields below; this is a request lifecycle inside the core done / needs you / not checked summary. Keep every source, search engine and requested effect separate. A provider acknowledgment is not verified removal.
+
+| Current observation | Record and next action |
+| --- | --- |
+| Candidate found; ownership unresolved | Possible match; needs private confirmation. No submission. |
+| Match established; route/data/authority not approved | Prepared / needs approval, or human-only verification. No request sent. |
+| Approved supported submission acknowledged | Submitted / awaiting response; record the acknowledgment date and verified applicable follow-up window. Do not claim erased. |
+| Submission timed out or status cannot be read | Outcome uncertain; inspect the existing request/status before retrying. Do not send a duplicate or invent a receipt. |
+| Provider reports success | Provider-reported result; independently check the specific approved public surface when safe and permitted, or label user-confirmed/unverified. |
+| Specific listing no longer visible on a successful authorized check | Verified absent from that surface at that time. This is not proof of backend erasure, removal from copies, or permanent absence. |
+| Login wall, rate limit, outage, changed page or missing access | Not checked / verification blocked. An error page or empty tool response is not removal evidence. Respect access limits; no evasion or repeated scraping. |
+| Some fields removed, another result remains | Partial; preserve verified progress and list only the remaining effect generically. Do not close the whole item. |
+| Site denies or cannot complete the request | Denied / unsupported with non-sensitive reason. Recheck current official appeal/privacy-authority route and prepare one option; no threats, fabricated legal claims or automatic resubmission. |
+| Previously absent content appears again | Reappeared; confirm same person and scope, compare dates and ask whether a new request is covered by current exact authority. Do not silently reopen completed consent. |
+
+Follow-up is tied to the provider's verified response window or an agreed review date, not an invented universal deadline. Separate provider denial from host/approval denial. After an approval denial, do not retry unless materially new relevant authorization permits it and the prior operation is known not to have executed; inspect uncertain outcomes first. Escalations/appeals are new consequential actions requiring applicable consent. If fraud, financial loss or threats are found, stop routine removal work long enough to give urgent containment; preserve necessary evidence privately with the person before deletion could destroy it.
+
+## Monitor on the person's behalf only when supported
+
+Use [recurring setup](recurring.md) for actual capability discovery, consent, deduplication, readback, delivery testing and pause/revocation. A browser session, prepared search or installed reminder is not a running monitor. A host may research routes and draft requests now while offering only a manual reminder later. Do not create new connectors or credentials to make a monitoring claim true.
+
+A monitoring agreement must name the signals/sites, approved queries or user-side workflow, recipients of any identifier, baseline, cadence and end/review date, allowed unattended actions, private storage/retention, notification destination and failure policy. Do not put identifiers, private URLs or request tokens in scheduler prompts; use a consented access-controlled reference only when the host can resolve it safely. If it cannot, use a manual review. Repeated searches transmit data again: consent must cover that recurrence explicitly. Follow provider limits and avoid a full-web sweep.
+
+Compare only successfully observed comparable scope. Deduplicate by generic item and meaningful change. Notify about a confirmed actionable new/reappeared exposure, a due response/appeal decision, or failed/stale coverage needing attention; label uncertain matches as needing private verification without alleging fraud. A neutral notification such as “Your private check needs one decision” should lead to the approved private detail location, without exposing the finding on a lock screen. Group routine unchanged results under the agreed quiet/digest policy. Missing baselines, expired access, skipped sources and failed runs remain not checked; partial coverage must remain visible.
+
+Record last successful check separately from last attempted run and next scheduled run. Agree on a stale threshold appropriate to the selected signal. On failure, preserve the last observation with its date, stop dependent actions and offer one recovery step. A job that never starts cannot report itself: use verified host failure notifications or an agreed manual last-run review. Silence is never an all-clear. On revocation, stop the revoked reads/submissions, reconcile and pause/delete the exact affected tasks with readback, and handle retained notes under the storage agreement. Pausing a local task does not cancel a separately enrolled provider service; its cancellation has its own effects and authorization.
+
+## Minimal private request record
+
+Use only needed fields, with [tracker consent and readback](private-tracker.md): generic item label; target service and action type; match confidence/basis/date; exact authorized scope and consent reference; submission date and lifecycle state; effect verified, evidence basis/date and remaining uncertainty; due/review date and source; next action/lane; last successful check, coverage gaps and retention/deletion date. Keep necessary URLs or case references in a separate user-controlled private record only if explicitly approved and safe; URLs may contain identifiers/tokens. No raw pages, screenshots, addresses, phone numbers, ID documents or copied search results in the agent's plan. Use short non-sensitive evidence summaries; delete unneeded temporary data under the agreed retention. Deleting notes cannot erase copies already retained by a site or chat provider.

@@ -21,6 +21,25 @@ class DocumentationTests(unittest.TestCase):
                 checked += 1
         self.assertGreater(checked, 10, 'expected a linked portable skill package')
 
+    def test_every_guide_is_reachable_from_core_skill(self):
+        # A portable loader begins at SKILL.md. Orphan guides are never discoverable.
+        pending = [ROOT / 'SKILL.md']
+        visited = set()
+        while pending:
+            source = pending.pop().resolve()
+            if source in visited:
+                continue
+            visited.add(source)
+            for target in re.findall(r'\[[^\]]*\]\(([^\s)]+)\)', source.read_text()):
+                if urlsplit(target).scheme or target.startswith('#'):
+                    continue
+                resolved = (source.parent / unquote(target.split('#')[0])).resolve()
+                if resolved.is_relative_to(ROOT) and resolved.suffix == '.md' and resolved.is_file():
+                    pending.append(resolved)
+        for guide in (ROOT / 'guides').glob('*.md'):
+            with self.subTest(guide=guide.name):
+                self.assertIn(guide.resolve(), visited, 'guide is orphaned from portable skill')
+
     def test_skill_metadata_is_available_to_loaders(self):
         text = (ROOT / 'SKILL.md').read_text()
         self.assertTrue(text.startswith('---\n'))
