@@ -2,7 +2,7 @@
 
 A step-by-step security checkup for you and your AI assistant. Start with one useful action, know what needs your attention, and build a routine you can keep up with.
 
-The guide helps you protect access to email and other important accounts, check phone and device protections, plan recovery, and find the right local help. You can start with five minutes and stop with a clear place to resume.
+The guide helps you protect access to email and other important accounts, check phone and device protections, plan recovery, reduce your internet footprint, handle identity-protection requests, and find the right local help. It can also guide scoped monitoring when your agent actually has the tools and permission. You can start with five minutes and stop with a clear place to resume.
 
 **Something happening now?** If money is moving without your permission, an account is taken over, or your phone is missing, start with [urgent help](guides/incidents.md). For money at risk, contact the bank or payment provider through its official app or a known number immediately.
 
@@ -18,7 +18,7 @@ If your agent supports installable skill folders, follow that agent's current in
 
 ## What a session looks like
 
-The agent checks for urgent problems first, then helps preserve recovery access and protect your main email. It owns research, preparation and supported actions you specifically authorize, so you handle only the choices and private steps that need you. It asks about other accounts and devices only as needed.
+The agent checks for urgent problems first, then helps preserve recovery access and protect your main email, or starts with the specific protection you requested. It owns research, preparation and supported actions you specifically authorize, so you handle only the choices and private steps that need you. It asks about other accounts and devices only as needed.
 
 A fictional first action:
 
@@ -49,6 +49,14 @@ A short session ends with something like:
 “Done” names the specific action and its evidence. An unchecked item stays visible. You never need to finish a whole checklist to make progress. See [more fictional conversations](examples/conversations.md), including getting stuck and recovering from a takeover.
 
 With your consent, the agent can keep a [private living action plan](guides/private-tracker.md) in a supported page, document or local record. It separates priorities, unknowns, permissions and dated verified results, then brings you one useful next action. You can use the checkup without saving anything.
+
+## Reduce your footprint and watch for changes
+
+Ask: “Help me remove one exposed listing and choose what is worth watching.” The agent can research official removal routes, prepare requests, and carry out specifically approved actions supported by its tools. [Identity protection](guides/identity-protection.md) covers broker opt-outs, source removal, search deindexing, breach/provider alerts and locally available identity protections. It confirms a match before acting, keeps uncertain or denied requests visible, and checks for reappearance only within your agreed scope.
+
+Personal searches can disclose information to search engines or sites, so the agent agrees what may be searched and where first. Documents and identity verification stay private. Removing a search result does not remove the source; submitting a request does not prove deletion. Monitoring covers only the named accessible signals and is not a guarantee, insurance or a built-in dark-web service. Without a scheduler and suitable access, the result is a prepared workflow or manual reminder, with no background monitor running.
+
+Other relevant gaps—scam verification, public sharing, permissions, safe account retirement and backup resilience—are covered in [everyday protections](guides/everyday-security.md), one useful action at a time.
 
 ## Local guidance when you need it
 
@@ -85,6 +93,6 @@ This is guidance, not legal, tax or financial advice. The [source notes](guides/
 
 Read [AGENTS.md](AGENTS.md). Use fictional data only. Prefer one useful next action over a longer checklist, and support technical claims with current official sources.
 
-Run `python3 -m unittest discover -s tests -v` for offline link and skill-metadata checks. The [behavior scenarios](tests/scenarios.md) support further review. These checks do not audit real accounts or prove that a scheduler or agent will behave correctly.
+Run `python3 -m unittest discover -s tests -v` for offline link, skill-metadata and guide-reachability checks. The [behavior scenarios](tests/scenarios.md) support further review. These checks do not audit real accounts or prove that a scheduler or agent will behave correctly.
 
 [MIT license](LICENSE).

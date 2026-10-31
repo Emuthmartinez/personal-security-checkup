@@ -21,6 +21,7 @@ Check publication/effective dates, current service availability, amendments, rep
 | Need | Verify for this person and action |
 | --- | --- |
 | Credit or identity protection | Available record access/correction, fraud alerts or restrictions; eligibility, coverage, cost, lifting and recovery. Do not assume another country's freeze exists here or that monitoring is equivalent. |
+| Footprint/removal request | Source/controller and applicable privacy authority; deletion, suppression and search-removal scope, exceptions, authorized-agent proof, private identity verification, response/appeal windows and cross-border support. An AI assistant is not automatically a legally authorized representative. |
 | Lost document | Current issuing authority, replacement/reporting route, location and any relevant age/guardian rules. User handles documents privately. |
 | Government login | Supported protection and recovery, delegated access and consequences of changes. No inferred legal or tax duties. |
 | Phone and cross-border recovery | Carrier-supported SIM/transfer protection; accepted recovery methods, overseas reachability and continuity before canceling a line. Device SIM PIN and remote erasure are separate. |

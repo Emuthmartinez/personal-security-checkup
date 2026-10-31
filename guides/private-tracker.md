@@ -4,7 +4,7 @@ Use a supported private page, document or local record only after agreeing on th
 
 If storage is declined or unavailable, work in the current session and give one minimal resume phrase. Do not create a local substitute or claim the plan persists. Chat may still be retained by its provider.
 
-Keep generic labels and brief evidence summaries. Exclude credentials, recovery material, account identifiers, phone/email addresses, balances, identity documents, screenshots and raw activity logs. “Recovery kit stored privately” is enough; omit its contents and precise location. The user keeps incident records privately for official reporting.
+Keep generic labels and brief evidence summaries. Exclude credentials, recovery material, account identifiers, phone/email addresses, balances, identity documents, screenshots and raw activity logs. “Recovery kit stored privately” is enough; omit its contents and precise location. The user keeps incident records privately for official reporting. A necessary opaque case reference or identifying URL may stay in a separately approved user-controlled private record under the identity guide; do not copy it into this generic plan or scheduler prompts.
 
 ## Prioritize the next useful action
 
@@ -53,6 +53,8 @@ Use only the fields needed. The example below is entirely synthetic; it is not a
 | Optional unused feature / low: user confirms it is unused and off; no urgent dependency identified | User-confirmed 2026-10-24 | No action now / deferred | Revisit only if use changes |
 
 For an actual fix, replace the result with the exact change, date, scoped verification and remaining uncertainty. Use done, needs you, not checked, not applicable or declined as in the [core skill](../SKILL.md); permission and priority labels do not imply completion.
+
+For removal/identity work, use the optional [minimal request record](identity-protection.md#minimal-private-request-record) and its lifecycle states. “Submitted” can be done only as the scoped submission action; the removal itself stays unresolved until the specific effect has evidence. Store match confidence separately from removal status and monitoring coverage. Provider-reported success, observed absence and backend erasure are different claims.
 
 ## Keep the human handoff small
 

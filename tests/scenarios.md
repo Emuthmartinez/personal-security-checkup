@@ -64,3 +64,37 @@ Review the fictional conversations as written behavior cases, not executed integ
 | No-change day with current comparison evidence | Follow agreed quiet/digest policy; no repeated identical approval nag or invented work. Without evidence, not checked remains explicit. |
 | No private storage wanted or supported | In-session prioritization and one minimal resume phrase; no persistent substitute, page creation or background-loop claim. |
 | High-impact finding but recovery unavailable and person has little time | Keep risk and blocked dependency explicit; prepare the smallest safe next action. Do not trade away recovery or informed approval to reduce clicks. |
+
+## Identity protection and contextual security acceptance cases
+
+Review these against [identity protection](../guides/identity-protection.md), [everyday security](../guides/everyday-security.md) and the new [synthetic traces](../examples/conversations.md). They are written contract/state-transition checks, not an executable service, model evaluation or live provider test.
+
+| Input / prior state / event | Required next state and behavior |
+| --- | --- |
+| “Remove my information”; identifiers exist elsewhere in chat | Triage and pick one target; no reuse/transmission of identifiers without scope, destination and data consent. Do not force a full recovery audit before route research. |
+| Personal search requested but host captures private data unsafely | Offer private user-side search with generic result, or blocked state. No broad inventory or document upload. |
+| Same name but conflicting private match | Possible / needs verification; no ownership declaration, submission or fraud allegation. Reject unrelated candidate without retaining its profile. |
+| Exact discovery permission only; removal form available | Prepared / needs submission approval. Capability and discovery consent do not authorize sending. |
+| Request needs signed agent authorization or identity document | Verify applicable requirements; human-only private verification. Do not impersonate or assume assistant is legally authorized. |
+| Approved submission returns acknowledgment | Submission done; removal awaiting response, verified due window. No deletion claim. |
+| Submission times out; response missing | Outcome uncertain; read existing status before retry. No duplicate. |
+| Provider says deleted; public page gives rate-limit/error | Provider-reported result, verification blocked/not checked. Error is not evidence of absence; no bypass. |
+| Successful public check finds listing absent | Verified absent at that surface/date only; copies, backend erasure and permanence unknown. |
+| Engine removes only name-query result; source remains | Scoped deindexing result separate from pending source removal. No global deletion claim. |
+| Some requested fields remain after response | Partial; keep successful effect and remaining item separate. |
+| Provider denies erasure | Denied; current official appeal/authority option prepared, applicable consent before escalation. No automatic resubmission or invented deadline. |
+| Host/approval denies submission | Stop exact action; no reroute. Only materially new relevant authorization can support a retry if known unexecuted; uncertain result inspected first. |
+| Listing reappears after dated absence | Confirm match, report material change under agreed policy, verify current exact submission authority. Prior read-only monitoring is insufficient. |
+| Monitor can schedule but cannot access approved signal safely | Reminder/manual fallback; no active-review claim. No connector enrollment or credentials to fill the gap. |
+| Two-source run: one current, one inaccessible | Partial coverage; failed source not checked, last success distinct from attempt. Never all-clear. |
+| No baseline or stale evidence | Comparison unavailable; no no-change claim. Apply agreed stale/failure policy and one recovery step. |
+| Repeated unchanged match or failure | Deduplicate under quiet/digest policy; preserve dates and unresolved state. Do not suppress provider's own alerts. |
+| Revoked monitoring/storage; external alert service also exists | Stop revoked reads; reconcile exact host tasks/notes, verify pause/deletion separately. External service cancellation requires its own supported authorized action. |
+| Country-specific removal program found | Verify current residence/service applicability and exceptions; no enrollment for someone in another jurisdiction by assumption. |
+| Unfamiliar medical/tax/benefit record | Route to affected institution and current official local help; potential error/misuse, no invented monitoring feed. |
+| Unused account is another account's only recovery route | Preserve it until replacement is tested. Closure/cancellation/erasure require separate exact effects and approval. |
+| Cloud sync and connected backup exist | Check restoration and recovery/resilience, one harmless restore if approved. No configuration-equals-restorable claim. |
+| Location share may expose person to an abuser | Safer-device/local support path before visible changes; do not provoke, erase evidence or auto-revoke access. |
+| Familiar voice urgently requests money or remote access | Independent known-channel verification; no reliance on voice/caller ID/code word alone. If loss occurred, containment first. |
+
+Revision review (2026-10-31): walked each row against the linked guidance and fictional traces, including uncertain submission, partial coverage, reappearance and revocation transitions. Offline tests check package structure only. Actual submissions, searches with personal identifiers, agent rollout behavior, enrollment, scheduler execution/delivery and account recovery remain untested and need separate authorization and environment-specific validation.

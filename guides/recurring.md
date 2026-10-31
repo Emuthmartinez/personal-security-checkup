@@ -4,7 +4,7 @@ A skill file cannot wake itself up, inspect accounts or deliver alerts. A calend
 
 ## Choose a loop the host can support
 
-Introduce the routine early, then guide setup one action at a time after the first useful recovery step or when the user asks. At handoff, reach an explicit outcome: installed and delivery tested, saved but delivery unverified, manual only, deferred, declined, blocked or outcome uncertain. Do not require completion of the whole checkup first. Respect a request to stop.
+Introduce the routine early, then guide setup one action at a time after the first useful step in the chosen protection or when the user asks. At handoff, reach an explicit outcome: installed and delivery tested, saved but delivery unverified, manual only, deferred, declined, blocked or outcome uncertain. Do not require completion of the whole checkup first. Respect a request to stop.
 
 Discover available scheduler/reminder tools, supported cadences, timezone handling, notification destinations, run history and approved access before proposing automation. Read relevant tool/help documentation; do not assume this host behaves like another agent. A host that can send reminders may be unable to execute reviews, access the private note, or inspect accounts. Establish which capabilities exist without requesting broad new access.
 
@@ -21,6 +21,8 @@ Consider these possibilities against actual risk, unresolved work, attention bur
 Propose the smallest justified set, often one reminder plus existing provider alerts. State why each selected cadence is useful and omit the rest. Distinguish a reminder to the user, an agent-executed read-only review and a verified fix. Recurring review consent never authorizes future account changes.
 
 Agree on local time/timezone, destination, scope, what can run without the user, access limits, retention, quiet/digest policy, end/review condition and pause/change method. Reuse already specific consent; ask only for missing choices. Show the concrete proposal before enabling anything. Do not create monitoring access, paid subscriptions or new connectors as part of setup. Missing tools or approvals lead to a scoped manual fallback, not a claim of monitoring.
+
+For identity/exposure monitoring, also apply the [identity-protection agreement](identity-protection.md#monitor-on-the-persons-behalf-only-when-supported): approved sources and repeated transmissions, match confidence, last successful check, stale threshold, coverage gaps and separate removal authority. Provider alerts or a scoped supported review may be useful; no full-web or dark-web coverage is implied. New identifiers, destinations, connectors or submissions are outside an existing read-only review unless specifically authorized.
 
 ## Portable setup checklist
 
@@ -43,7 +45,7 @@ Copy only after tailoring to the approved scope. Do not place a private tracker 
 
 ## Compare changes and keep notifications quiet
 
-Compare the same scope with a dated baseline. A newly unknown session, recovery change or missed update is a prompt to verify, not automatic proof of takeover. No baseline, missing access or a failed run means **not checked**, not “no change.” Explain the gap and one recovery step. Do not repeatedly scrape accounts or submit identifiers to breach services.
+Compare the same scope with a dated baseline. A newly unknown session, recovery change or missed update is a prompt to verify, not automatic proof of takeover. No baseline, missing access or a failed run means **not checked**, not “no change.” Explain the gap and one recovery step. Prefer existing provider alerts to repeated lookup. Do not scrape accounts or repeatedly submit identifiers outside explicitly approved bounded recurrence, safe tooling and provider limits.
 
 Keep the approved scheduled reminder. For additional agent-generated findings, notify only about a new actionable change, an urgent verified issue, a due user action, or a failed/stale review needing attention. Use the [private action plan](private-tracker.md) to keep one concise actionable digest when daily delivery is justified and agreed. Lead with changed/high-priority actionable items and at most one human handoff. Group routine items into the next digest; on no-change days follow the quiet policy. Do not repeat unchanged permission requests without a material change or agreed review point. Deduplicate by generic item and meaningful state change, retaining the observation date; do not repeat an unchanged warning at every run. Agree when to remind about an overdue action. If a run starts and detects expired account/connector access, report that scoped review as not checked and give a reconnection/manual step; do not expand access or reconnect without approval. A task that never starts or crashes before reporting cannot send its own failure notification. Use and verify native scheduler failure/missed-run notifications if available and approved; otherwise disclose that these failures may go unnoticed and agree on a manual last-run check. Report detected failures neutrally and group repeated unchanged failures into the agreed digest; silence must never be described as a clean review. Do not suppress the bank's or provider's own security alerts.
 
